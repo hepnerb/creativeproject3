@@ -28,6 +28,9 @@
     </div>
   </div>
   <router-view />
+  <div class="footer">
+  <a href="https://github.com/hepnerb/creativeproject3.git">Github Link</a>
+</div>
 </div>
 </template>
 
@@ -94,5 +97,16 @@ body {
 
 .browse {
   margin-right: 50px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
 }
 </style>
