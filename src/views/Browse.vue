@@ -19,13 +19,10 @@
       <li class="pure-menu-item"><a @click="select('GMC')" href="#" class="pure-menu-link">GMC</a></li>
       <li class="pure-menu-item"><a @click="select('Chevrolet')" href="#" class="pure-menu-link">Chevrolet</a></li>
       <li class="pure-menu-item"><a @click="select('Jeep')" href="#" class="pure-menu-link">Jeep</a></li>
-
-
     </ul>
   </div>
   <div class="pure-menu pure-menu-horizontal">
     <ul class = "pure-menu-list">
-      
       <li class="pure-menu-item"><a @click="select('Maserati')" href="#" class="pure-menu-link">Maserati</a></li>
       <li class="pure-menu-item"><a @click="select('Mercedes-Benz')" href="#" class="pure-menu-link">Mercedes-Benz</a></li>
       <li class="pure-menu-item"><a @click="select('Mercury')" href="#" class="pure-menu-link">Mercury</a></li>

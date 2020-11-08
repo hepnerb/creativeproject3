@@ -7,15 +7,21 @@
       </router-link>
     </div>
     <div id="side">
+      <router-link to="/">
+        <div class="menu-item browse">
+          <img src="">
+          <p>Home</p>
+        </div>
+      </router-link>
       <router-link to="/browse">
         <div class="menu-item browse">
-          <img src="/images/globe.png">
-          <p>Sort by Make</p>
+          <img src="">
+          <p>Browse by Make</p>
         </div>
       </router-link>
       <router-link to="/cart">
         <div class="menu-item">
-          <img src="/images/love.png">
+          <img src="">
           <p>My List</p>
         </div>
       </router-link>

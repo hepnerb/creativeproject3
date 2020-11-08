@@ -1,5 +1,6 @@
 <template>
 <div>
+  <h1 style="text-align: center">Search for Cars</h1>
   <div class="wrapper">
     <div class="search">
       <form class="pure-form">
