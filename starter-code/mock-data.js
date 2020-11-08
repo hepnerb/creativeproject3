@@ -67,7 +67,7 @@ let mock = [{
   "model": "Windstar",
   "year": 2002,
   "price": "$8256.60",
-  "image": "11.jpg"
+  "image": "10.jpg"
 }, {
   "id": 11,
   "make": "Volkswagen",

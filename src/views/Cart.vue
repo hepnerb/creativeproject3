@@ -11,7 +11,7 @@
       </div>
       <div class="price">
         <h2>{{product.price}}</h2>
-        <button class="auto" @click="removeFromCart(product)">Remove From Cart</button>
+        <button class="auto" @click="removeFromCart(product)">Remove From List</button>
       </div>
     </div>
   </div>

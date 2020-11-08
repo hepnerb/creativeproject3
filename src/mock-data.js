@@ -1,354 +1,354 @@
-let mock = [{
-  "id": 1,
-  "make": "Dodge",
-  "model": "D350",
-  "year": 1992,
-  "price": "$5949.92",
-  "image": "1.jpg"
+let products = [{
+  id: 1,
+  make: "Dodge",
+  model: "D350",
+  year: 1992,
+  price: "$5949.92",
+  image: "1.jpg"
 }, {
-  "id": 2,
-  "make": "Lexus",
-  "model": "IS",
-  "year": 2011,
-  "price": "$7721.50",
-  "image": "2.jpg"
+  id: 2,
+  make: "Lexus",
+  model: "IS",
+  year: 2011,
+  price: "$7721.50",
+  image: "2.jpg"
 }, {
-  "id": 3,
-  "make": "Toyota",
-  "model": "Camry",
-  "year": 2009,
-  "price": "$8483.65",
-  "image": "3.jpg"
+  id: 3,
+  make: "Toyota",
+  model: "Camry",
+  year: 2009,
+  price: "$8483.65",
+  image: "3.jpg"
 }, {
-  "id": 4,
-  "make": "Geo",
-  "model": "Tracker",
-  "year": 1993,
-  "price": "$3455.80",
-  "image": "4.jpg"
+  id: 4,
+  make: "Geo",
+  model: "Tracker",
+  year: 1993,
+  price: "$3455.80",
+  image: "4.jpg"
 }, {
-  "id": 5,
-  "make": "Honda",
-  "model": "Odyssey",
-  "year": 2001,
-  "price": "$9913.27",
-  "image": "5.jpg"
+  id: 5,
+  make: "Honda",
+  model: "Odyssey",
+  year: 2001,
+  price: "$9913.27",
+  image: "5.jpg"
 }, {
-  "id": 6,
-  "make": "Dodge",
-  "model": "Ram Van 1500",
-  "year": 2000,
-  "price": "$5306.75",
-  "image": "6.jpg"
+  id: 6,
+  make: "Dodge",
+  model: "Ram Van 1500",
+  year: 2000,
+  price: "$5306.75",
+  image: "6.jpg"
 }, {
-  "id": 7,
-  "make": "Audi",
-  "model": "5000S",
-  "year": 1988,
-  "price": "$5151.63",
-  "image": "7.jpg"
+  id: 7,
+  make: "Audi",
+  model: "5000S",
+  year: 1988,
+  price: "$5151.63",
+  image: "7.jpg"
 }, {
-  "id": 8,
-  "make": "Lamborghini",
-  "model": "Diablo",
-  "year": 1994,
-  "price": "$7172.64",
-  "image": "8.jpg"
+  id: 8,
+  make: "Lamborghini",
+  model: "Diablo",
+  year: 1994,
+  price: "$7172.64",
+  image: "8.jpg"
 }, {
-  "id": 9,
-  "make": "Mitsubishi",
-  "model": "Expo",
-  "year": 1994,
-  "price": "$6570.74",
-  "image": "9.jpg"
+  id: 9,
+  make: "Mitsubishi",
+  model: "Expo",
+  year: 1994,
+  price: "$6570.74",
+  image: "9.jpg"
 }, {
-  "id": 10,
-  "make": "Ford",
-  "model": "Windstar",
-  "year": 2002,
-  "price": "$8256.60",
-  "image": "11.jpg"
+  id: 10,
+  make: "Ford",
+  model: "Windstar",
+  year: 2002,
+  price: "$8256.60",
+  image: "10.jpg"
 }, {
-  "id": 11,
-  "make": "Volkswagen",
-  "model": "Routan",
-  "year": 2009,
-  "price": "$7926.52",
-  "image": "11.jpg"
+  id: 11,
+  make: "Volkswagen",
+  model: "Routan",
+  year: 2009,
+  price: "$7926.52",
+  image: "11.jpg"
 }, {
-  "id": 12,
-  "make": "Subaru",
-  "model": "Impreza",
-  "year": 2000,
-  "price": "$5616.58",
-  "image": "12.jpg"
+  id: 12,
+  make: "Subaru",
+  model: "Impreza",
+  year: 2000,
+  price: "$5616.58",
+  image: "12.jpg"
 }, {
-  "id": 13,
-  "make": "Buick",
-  "model": "LeSabre",
-  "year": 1993,
-  "price": "$3146.11",
-  "image": "13.jpg"
+  id: 13,
+  make: "Buick",
+  model: "LeSabre",
+  year: 1993,
+  price: "$3146.11",
+  image: "13.jpg"
 }, {
-  "id": 14,
-  "make": "Kia",
-  "model": "Optima",
-  "year": 2003,
-  "price": "$2853.50",
-  "image": "14.jpg"
+  id: 14,
+  make: "Kia",
+  model: "Optima",
+  year: 2003,
+  price: "$2853.50",
+  image: "14.jpg"
 }, {
-  "id": 15,
-  "make": "Land Rover",
-  "model": "Freelander",
-  "year": 2002,
-  "price": "$5757.50",
-  "image": "15.jpg"
+  id: 15,
+  make: "Land Rover",
+  model: "Freelander",
+  year: 2002,
+  price: "$5757.50",
+  image: "15.jpg"
 }, {
-  "id": 16,
-  "make": "Tesla",
-  "model": "Roadster",
-  "year": 2012,
-  "price": "$12008.82",
-  "image": "16.jpg"
+  id: 16,
+  make: "Tesla",
+  model: "Roadster",
+  year: 2012,
+  price: "$12008.82",
+  image: "16.jpg"
 }, {
-  "id": 17,
-  "make": "GMC",
-  "model": "Savana",
-  "year": 2009,
-  "price": "$6046.52",
-  "image": "17.jpg"
+  id: 17,
+  make: "GMC",
+  model: "Savana",
+  year: 2009,
+  price: "$6046.52",
+  image: "17.jpg"
 }, {
-  "id": 18,
-  "make": "Chevrolet",
-  "model": "Silverado 3500",
-  "year": 2001,
-  "price": "$5038.69",
-  "image": "18.jpg"
+  id: 18,
+  make: "Chevrolet",
+  model: "Silverado 3500",
+  year: 2001,
+  price: "$5038.69",
+  image: "18.jpg"
 }, {
-  "id": 19,
-  "make": "Jeep",
-  "model": "Commander",
-  "year": 2010,
-  "price": "$3987.05",
-  "image": "19.jpg"
+  id: 19,
+  make: "Jeep",
+  model: "Commander",
+  year: 2010,
+  price: "$3987.05",
+  image: "19.jpg"
 }, {
-  "id": 20,
-  "make": "Ford",
-  "model": "Mustang",
-  "year": 1987,
-  "price": "$6689.53",
-  "image": "20.jpg"
+  id: 20,
+  make: "Ford",
+  model: "Mustang",
+  year: 1987,
+  price: "$6689.53",
+  image: "20.jpg"
 }, {
-  "id": 21,
-  "make": "Mitsubishi",
-  "model": "Montero",
-  "year": 2002,
-  "price": "$4516.47",
-  "image": "21.jpg"
+  id: 21,
+  make: "Mitsubishi",
+  model: "Montero",
+  year: 2002,
+  price: "$4516.47",
+  image: "21.jpg"
 }, {
-  "id": 22,
-  "make": "Maserati",
-  "model": "GranSport",
-  "year": 2006,
-  "price": "$18785.72",
-  "image": "22.jpg"
+  id: 22,
+  make: "Maserati",
+  model: "GranSport",
+  year: 2006,
+  price: "$18785.72",
+  image: "22.jpg"
 }, {
-  "id": 23,
-  "make": "Mercedes-Benz",
-  "model": "SL-Class",
-  "year": 1995,
-  "price": "$3533.32",
-  "image": "23.jpg"
+  id: 23,
+  make: "Mercedes-Benz",
+  model: "SL-Class",
+  year: 1995,
+  price: "$3533.32",
+  image: "23.jpg"
 }, {
-  "id": 24,
-  "make": "Mercury",
-  "model": "Montego",
-  "year": 2007,
-  "price": "$2946.39",
-  "image": "24.jpg"
+  id: 24,
+  make: "Mercury",
+  model: "Montego",
+  year: 2007,
+  price: "$2946.39",
+  image: "24.jpg"
 }, {
-  "id": 25,
-  "make": "Ford",
-  "model": "Mustang",
-  "year": 1965,
-  "price": "$17548.67",
-  "image": "25.jpg"
+  id: 25,
+  make: "Ford",
+  model: "Mustang",
+  year: 1965,
+  price: "$17548.67",
+  image: "25.jpg"
 }, {
-  "id": 26,
-  "make": "Lincoln",
-  "model": "MKZ",
-  "year": 2008,
-  "price": "$5956.87",
-  "image": "26.jpg"
+  id: 26,
+  make: "Lincoln",
+  model: "MKZ",
+  year: 2008,
+  price: "$5956.87",
+  image: "26.jpg"
 }, {
-  "id": 27,
-  "make": "Suzuki",
-  "model": "Aerio",
-  "year": 2003,
-  "price": "$2062.82",
-  "image": "27.jpg"
+  id: 27,
+  make: "Suzuki",
+  model: "Aerio",
+  year: 2003,
+  price: "$2062.82",
+  image: "27.jpg"
 }, {
-  "id": 28,
-  "make": "Cadillac",
-  "model": "Fleetwood",
-  "year": 1995,
-  "price": "$3142.82",
-  "image": "28.jpg"
+  id: 28,
+  make: "Cadillac",
+  model: "Fleetwood",
+  year: 1995,
+  price: "$3142.82",
+  image: "28.jpg"
 }, {
-  "id": 29,
-  "make": "Volkswagen",
-  "model": "Jetta",
-  "year": 1984,
-  "price": "$9265.33",
-  "image": "29.jpg"
+  id: 29,
+  make: "Volkswagen",
+  model: "Jetta",
+  year: 1984,
+  price: "$9265.33",
+  image: "29.jpg"
 }, {
-  "id": 30,
-  "make": "GMC",
-  "model": "Suburban 1500",
-  "year": 1997,
-  "price": "$3695.62",
-  "image": "30.jpg"
+  id: 30,
+  make: "GMC",
+  model: "Suburban 1500",
+  year: 1997,
+  price: "$3695.62",
+  image: "30.jpg"
 }, {
-  "id": 31,
-  "make": "Porsche",
-  "model": "911",
-  "year": 2012,
-  "price": "$20595.38",
-  "image": "31.jpg"
+  id: 31,
+  make: "Porsche",
+  model: "911",
+  year: 2012,
+  price: "$20595.38",
+  image: "31.jpg"
 }, {
-  "id": 32,
-  "make": "Ford",
-  "model": "LTD Crown Victoria",
-  "year": 1991,
-  "price": "$9603.73",
-  "image": "32.jpg"
+  id: 32,
+  make: "Ford",
+  model: "LTD Crown Victoria",
+  year: 1991,
+  price: "$9603.73",
+  image: "32.jpg"
 }, {
-  "id": 33,
-  "make": "Mazda",
-  "model": "MX-5",
-  "year": 2009,
-  "price": "$2100.16",
-  "image": "33.jpg"
+  id: 33,
+  make: "Mazda",
+  model: "MX-5",
+  year: 2009,
+  price: "$2100.16",
+  image: "33.jpg"
 }, {
-  "id": 34,
-  "make": "Ford",
-  "model": "Aspire",
-  "year": 1997,
-  "price": "$3313.35",
-  "image": "34.jpg"
+  id: 34,
+  make: "Ford",
+  model: "Aspire",
+  year: 1997,
+  price: "$3313.35",
+  image: "34.jpg"
 }, {
-  "id": 35,
-  "make": "Toyota",
-  "model": "Tercel",
-  "year": 1993,
-  "price": "$8079.46",
-  "image": "35.jpg"
+  id: 35,
+  make: "Toyota",
+  model: "Tercel",
+  year: 1993,
+  price: "$8079.46",
+  image: "35.jpg"
 }, {
-  "id": 36,
-  "make": "Ford",
-  "model": "Taurus",
-  "year": 2000,
-  "price": "$5337.04",
-  "image": "36.jpg"
+  id: 36,
+  make: "Ford",
+  model: "Taurus",
+  year: 2000,
+  price: "$5337.04",
+  image: "36.jpg"
 }, {
-  "id": 37,
-  "make": "Oldsmobile",
-  "model": "Silhouette",
-  "year": 2002,
-  "price": "$3566.38",
-  "image": "37.jpg"
+  id: 37,
+  make: "Oldsmobile",
+  model: "Silhouette",
+  year: 2002,
+  price: "$3566.38",
+  image: "37.jpg"
 }, {
-  "id": 38,
-  "make": "Chevrolet",
-  "model": "Camaro",
-  "year": 1972,
-  "price": "$19511.65",
-  "image": "38.jpg"
+  id: 38,
+  make: "Chevrolet",
+  model: "Camaro",
+  year: 1972,
+  price: "$19511.65",
+  image: "38.jpg"
 }, {
-  "id": 39,
-  "make": "Nissan",
-  "model": "Sentra",
-  "year": 1998,
-  "price": "$4999.24",
-  "image": "39.jpg"
+  id: 39,
+  make: "Nissan",
+  model: "Sentra",
+  year: 1998,
+  price: "$4999.24",
+  image: "39.jpg"
 }, {
-  "id": 40,
-  "make": "Volvo",
-  "model": "S80",
-  "year": 2002,
-  "price": "$6033.12",
-  "image": "40.jpg"
+  id: 40,
+  make: "Volvo",
+  model: "S80",
+  year: 2002,
+  price: "$6033.12",
+  image: "40.jpg"
 }, {
-  "id": 41,
-  "make": "Honda",
-  "model": "Odyssey",
-  "year": 2005,
-  "price": "$9364.76",
-  "image": "41.jpg"
+  id: 41,
+  make: "Honda",
+  model: "Odyssey",
+  year: 2005,
+  price: "$9364.76",
+  image: "41.jpg"
 }, {
-  "id": 42,
-  "make": "Lexus",
-  "model": "RX Hybrid",
-  "year": 2007,
-  "price": "$4432.87",
-  "image": "42.jpg"
+  id: 42,
+  make: "Lexus",
+  model: "RX Hybrid",
+  year: 2007,
+  price: "$4432.87",
+  image: "42.jpg"
 }, {
-  "id": 43,
-  "make": "Buick",
-  "model": "Estate",
-  "year": 1990,
-  "price": "$4261.86",
-  "image": "43.jpg"
+  id: 43,
+  make: "Buick",
+  model: "Estate",
+  year: 1990,
+  price: "$4261.86",
+  image: "43.jpg"
 }, {
-  "id": 44,
-  "make": "Hyundai",
-  "model": "Tucson",
-  "year": 2005,
-  "price": "$4551.29",
-  "image": "44.jpg"
+  id: 44,
+  make: "Hyundai",
+  model: "Tucson",
+  year: 2005,
+  price: "$4551.29",
+  image: "44.jpg"
 }, {
-  "id": 45,
-  "make": "Mitsubishi",
-  "model": "Diamante",
-  "year": 1996,
-  "price": "$9603.79",
-  "image": "45.jpg"
+  id: 45,
+  make: "Mitsubishi",
+  model: "Diamante",
+  year: 1996,
+  price: "$9603.79",
+  image: "45.jpg"
 }, {
-  "id": 46,
-  "make": "BMW",
-  "model": "6 Series",
-  "year": 2006,
-  "price": "$4570.46",
-  "image": "46.jpg"
+  id: 46,
+  make: "BMW",
+  model: "6 Series",
+  year: 2006,
+  price: "$4570.46",
+  image: "46.jpg"
 }, {
-  "id": 47,
-  "make": "Dodge",
-  "model": "Challenger",
-  "year": 2008,
-  "price": "$12670.76",
-  "image": "47.jpg"
+  id: 47,
+  make: "Dodge",
+  model: "Challenger",
+  year: 2008,
+  price: "$12670.76",
+  image: "47.jpg"
 }, {
-  "id": 48,
-  "make": "Ford",
-  "model": "Escape",
-  "year": 2006,
-  "price": "$8732.52",
-  "image": "48.jpg"
+  id: 48,
+  make: "Ford",
+  model: "Escape",
+  year: 2006,
+  price: "$8732.52",
+  image: "48.jpg"
 }, {
-  "id": 49,
-  "make": "Dodge",
-  "model": "Spirit",
-  "year": 1995,
-  "price": "$9930.27",
-  "image": "49.jpg"
+  id: 49,
+  make: "Dodge",
+  model: "Spirit",
+  year: 1995,
+  price: "$9930.27",
+  image: "49.jpg"
 }, {
-  "id": 50,
-  "make": "Mitsubishi",
-  "model": "Galant",
-  "year": 1996,
-  "price": "$7054.72",
-  "image": "50.jpg"
+  id: 50,
+  make: "Mitsubishi",
+  model: "Galant",
+  year: 1996,
+  price: "$7054.72",
+  image: '50.jpg'
 }]
 
 
-export default mock;
+export default products;

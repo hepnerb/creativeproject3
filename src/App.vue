@@ -10,13 +10,13 @@
       <router-link to="/browse">
         <div class="menu-item browse">
           <img src="/images/globe.png">
-          <p>Browse</p>
+          <p>Sort by Make</p>
         </div>
       </router-link>
       <router-link to="/cart">
         <div class="menu-item">
           <img src="/images/love.png">
-          <p>{{ itemnumber}} items</p>
+          <p>My List</p>
         </div>
       </router-link>
     </div>

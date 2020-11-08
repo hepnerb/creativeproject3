@@ -3,15 +3,15 @@
   <div class="products">
     <div class="product" v-for="product in products" :key="product.id">
       <div class="info">
-        <h1>{{product.name}}</h1>
-        <p>{{product.country}}</p>
+        <h1>{{product.make}}</h1>
+        <p>{{product.model}}</p>
       </div>
       <div class="image">
         <img :src="'/images/products/'+product.image">
       </div>
       <div class="price">
         <h2>{{product.price}}</h2>
-        <button class="auto" @click="addToCart(product)">Add to Cart</button>
+        <button class="auto" @click="addToCart(product)">Add to List</button>
       </div>
     </div>
   </div>
@@ -49,13 +49,13 @@ export default {
 .product {
   margin: 10px;
   margin-top: 50px;
-  width: 200px;
+  width: 300px;
 }
 
 .product img {
   border: 2px solid #333;
   height: 250px;
-  width: 200px;
+  width: 300px;
   object-fit: cover;
 }
 
@@ -66,25 +66,24 @@ export default {
 }
 
 .info {
-  background: #F2921D;
-  color: #000;
+  background: #4bb9ec;
+  color: rgb(20, 20, 20);
   padding: 10px 30px;
   height: 80px;
 }
 
 .info h1 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .info h2 {
-  font-size: 14px;
+  font-size: 18x;
 }
 
 .info p {
   margin: 0px;
   font-size: 10px;
 }
-
 
 .price {
   display: flex;
